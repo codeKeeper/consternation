@@ -1,9 +1,9 @@
 #include "consternation.h"
 
 int World::debugPrint() {
-	for (unsigned i = 0; i < DEPTH; i++) {
-		TheWorld[i]->debugPrint();
-	}
+	//for (unsigned i = 0; i < DEPTH; i++) {
+		TheWorld[0]->debugPrint();
+	//}
 	return 1;
 }
 
